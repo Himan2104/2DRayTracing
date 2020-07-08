@@ -3,7 +3,7 @@
 
 Ray::Ray(float x, float y)
 {
-	relEnd = sf::Vector2f(x, y) * 5000.f;
+	relEnd = sf::Vector2f(x, y) * 500.f;
 }
 
 void Ray::reset()

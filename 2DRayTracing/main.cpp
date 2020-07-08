@@ -95,7 +95,7 @@ int main()
 		stats.setString("FPS : " + std::to_string(1.0f / frameTime)
 			+ "\nWalls : " + std::to_string(Walls.size())
 			+ "\nRays : " + std::to_string(Rays.size())
-			+ "\nPhotonDensity/Intensity : " + std::to_string(intensity));
+			+ "\nRayDensity/Intensity : " + std::to_string(intensity));
 
 		window.draw(stats);
 
